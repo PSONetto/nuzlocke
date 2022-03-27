@@ -1,0 +1,11 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+
+.footer {
+    @include flex-format();
+    @include gradient($bg-main-color, $bg-sub-color);
+    color: $text-color;
+    height: $footer-height;
+    border-top: 5px solid $border-color;
+}

@@ -1,0 +1,11 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.main {
+    min-height: $main-height;
+}
+
+.main h1 {
+    margin: 0px;
+}
+

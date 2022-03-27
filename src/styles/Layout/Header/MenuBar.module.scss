@@ -1,0 +1,7 @@
+@import '../../utils/variables.scss';
+@import '../../utils/mixins.scss';
+
+.menubar {
+    @include flex-format(center, center);
+    flex-grow: 2;
+}

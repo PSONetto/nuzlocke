@@ -1,6 +1,11 @@
+import News from '../components/News'
+import Rules from '../components/Rules'
+
 function Home() {
     return (
-        <h1>Home Page</h1>
+        <>
+            <Rules />
+        </>
     )
 }
 
