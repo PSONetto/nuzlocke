@@ -1,0 +1,16 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.searchForm {
+    @include flex-format(column, space-around, center);
+    height: 150px;
+    width: 100%;
+}
+
+.searchInput {
+    font-size: 1em;
+    padding: 10px;
+    height: 50px;
+    width: 75%;
+    border: solid 5px goldenrod;
+}

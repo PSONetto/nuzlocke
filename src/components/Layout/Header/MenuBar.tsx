@@ -6,7 +6,10 @@ function MenuBar() {
     return (
         <nav className={styles.menubar}>
             <DropdownMenu title="Pokedex">
-                <Link href={"/pokedex/[gen]"}>
+                <Link href={{
+                    pathname: "/pokedex/[gen]",
+                    query: { gen: 'gen-1' }
+                }}>
                     <a>Generation 1</a>
                 </Link>
             </DropdownMenu>

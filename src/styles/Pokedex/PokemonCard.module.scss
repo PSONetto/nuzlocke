@@ -1,0 +1,11 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.pokemonCard {
+    background-color: #eee;
+    border: solid 5px red;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+    @include flex-format(row, space-between, center)
+}

@@ -3,7 +3,7 @@
 
 
 .footer {
-    @include flex-format();
+    @include flex-format(row, space-between, center);
     @include gradient($bg-main-color, $bg-sub-color);
     color: $text-color;
     height: $footer-height;

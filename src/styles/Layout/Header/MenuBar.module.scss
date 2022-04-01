@@ -2,6 +2,6 @@
 @import '../../utils/mixins.scss';
 
 .menubar {
-    @include flex-format(center, center);
+    @include flex-format(row, center, center, nowrap);
     flex-grow: 2;
 }

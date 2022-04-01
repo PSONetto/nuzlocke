@@ -1,7 +1,9 @@
-@mixin flex-format($justification: space-between, $alignment: center) {
+@mixin flex-format($direction, $justification, $alignment, $wrap: wrap) {
     display: flex;
+    flex-direction: $direction;
     justify-content: $justification;
     align-items: $alignment;
+    flex-wrap: $wrap;
 }
 
 @mixin gradient($main, $sub) {

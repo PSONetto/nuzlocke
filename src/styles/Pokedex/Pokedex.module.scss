@@ -1,0 +1,8 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.pokedex {
+    @include flex-format(column, flex-start, center);
+    padding: 20px;
+    min-height: $main-height;
+}
